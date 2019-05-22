@@ -1,0 +1,61 @@
+{
+    "elements": [
+            {
+                "name": "ele1",
+                "source": "designer",
+                "type": "image",
+                "value": "##image1"
+            },
+            {
+                "name": "ele2",
+                "source": "designer",
+                "type": "image",
+                "value": "##image2"
+            }
+        ],
+        "actions": [
+            {
+                "name": "act1",
+                "element": "ele1",
+                "startTime": 0,
+                "endTime": 2000,
+                "startAlpha": 1.0,
+                "endAlpha": 0.0,
+                "resizeMode": "cropimg",
+                "projectionType": "normal"
+            },
+            {
+                "name": "act2",
+                "element": "ele2",
+                "startTime": 0,
+                "endTime": 2000,
+                "startAlpha": 0.0,
+                "endAlpha": 1.0,
+                "resizeMode": "cropimg",
+                "projectionType": "normal"
+            }
+        ],
+        "blueprintDesc": {
+            "author": "",
+            "name": "",
+            "version": ""
+        },
+        
+        "hypnosConfig": {
+            "filterPath": "",
+            "transitionPath": ""
+        },
+        "outputDesc": {
+            "bgColor": "RGBA(0,0,0,255)",
+            "duration": 3000,
+            "fps": 25,
+            "height": 960,
+            "outputLocation": "",
+            "width": 544
+        },
+        "resource":{
+            "##image1":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/1.jpg",
+            "##image2":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/2.jpg"
+        }
+    }
+    

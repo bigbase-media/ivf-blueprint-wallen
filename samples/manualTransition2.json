@@ -1,0 +1,70 @@
+{
+    "elements": [
+            {
+                "name": "ele1",
+                "source": "designer",
+                "type": "image",
+                "value": "##image1"
+            },
+            {
+                "name": "ele2",
+                "source": "designer",
+                "type": "image",
+                "value": "##image2"
+            }
+        ],
+        "actions": [
+            {
+                "name": "act1",
+                "element": "ele1",
+                "startTime": 0,
+                "endTime": 1000,
+                "resizeMode": "cropimg",
+                "projectionType": "normal"
+            },
+            {
+                "name": "act2",
+                "element": "ele2",
+                "startTime":1000,
+                "endTime": 4000,
+                "resizeMode": "cropimg",
+                "projectionType": "normal"
+            },
+            {
+                "name": "act1",
+                "element": "ele1",
+                "startTime": 1000,
+                "endTime": 3000,
+                "resizeMode": "cropimg",
+                "projectionType": "normal",
+                "subactions" : ["polygon"],
+	              "polygonConfig" : {
+	                 "startPos" : "0,0,1,0,1,1,0,1",
+	                 "endPos" : "0,0,0,0,0,1,0,1"
+	              }
+            }
+        ],
+        "blueprintDesc": {
+            "author": "",
+            "name": "",
+            "version": ""
+        },
+        
+        "hypnosConfig": {
+            "filterPath": "",
+            "transitionPath": ""
+        },
+        "outputDesc": {
+            "bgColor": "RGBA(0,0,0,255)",
+            "duration": 4000,
+            "fps": 25,
+            "height": 960,
+            "outputLocation": "",
+            "width": 544
+        },
+        "resource":{
+            "##image1":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/1.jpg",
+            "##image2":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/2.jpg"
+        }
+    }
+    

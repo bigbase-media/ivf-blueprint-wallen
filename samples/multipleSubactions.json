@@ -1,0 +1,135 @@
+{
+	"blueprintDesc": {
+		"author": "wallen",
+		"name": "sample"
+	},
+
+	"outputDesc": {
+		"width": 1280,
+		"height": 720,
+		"outputLocation": "",
+		"fps": 25.0,
+		"duration": 4000,
+		"bgColor": "RGBA(0,0,0,255)"
+	},
+
+	"hypnosConfig": {
+		"filterPath": "",
+		"transitionPath": ""
+	},
+
+	"resource": {
+		"##image1":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/1.jpg",
+    "##image2":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/2.jpg"
+	},
+
+	"elements": [{
+			"name": "ele0",
+			"type": "image",
+			"source": "user",
+			"value": "##image1",
+			"imageProp": {
+				"rect": "0,0,1,1"
+			},
+			"videoProp": {
+				"rect": "0,0,1,1",
+				"startTime": 0,
+				"endTime": 2000,
+				"asBgMusic": 0
+			}
+		},
+		{
+			"name": "ele1",
+			"type": "image",
+			"source": "user",
+			"value": "##image0",
+			"imageProp": {
+				"rect": "0,0,1,1"
+			},
+			"videoProp": {
+				"rect": "0,0,1,1",
+				"startTime": 0,
+				"endTime": 2000,
+				"asBgMusic": 0
+			}
+		}
+	],
+
+	"actions": [{
+			"name": "act0",
+			"projectionType": "normal",
+			"element": "ele0",
+			"startTime": 0,
+			"endTime": 2000,
+			"startPos": "0.5,0.5,1,1",
+			"endPos": "0.5,0.5,1,1",
+			"resizeMode": "pointalign",
+			"alignPoint": "0.5,0.5",
+			"startAlpha": 1,
+			"endAlpha": 1,
+			"subactions": ["ripple", "resize", "ripple"],
+			"rippleConfig": [{
+				"center": "0.25,0.25",
+				"startTime": 0,
+				"endTime": 1000
+			},
+			{
+				"center": "0.75,0.75",
+				"startTime": 1000,
+				"endTime": 2000
+			}],
+			"resizeConfig": {
+				"resolution": "1280,720",
+				"type": "blurbackgrd"
+			}
+		},
+		{
+			"name": "act1",
+			"projectionType": "normal",
+			"element": "ele1",
+			"startTime": 2000,
+			"endTime": 4000,
+			"startPos": "0.5,0.5,1,1",
+			"endPos": "0.5,0.5,1,1",
+			"resizeMode": "pointalign",
+			"alignPoint": "0.5,0.5",
+			"startAlpha": 1,
+			"endAlpha": 1,
+			"subactions": ["ripple", "resize", "ripple"],
+			"rippleConfig": [{
+				"center": "0.25,0.25",
+				"startTime": 0,
+				"endTime": 1000
+			},
+			{
+				"center": "0.75,0.75",
+				"startTime": 1000,
+				"endTime": 2000
+			}],
+			"resizeConfig": {
+				"resolution": "1280,720",
+				"type": "blurbackgrd"
+			}
+		}
+	],
+
+	"userElements": [{
+			"name": "ele0",
+			"type": "image",
+			"source": "user",
+			"value": "##image2",
+			"imageProp": {
+				"rect": "0,0,1,1"
+			}
+		},
+		{
+			"name": "ele1",
+			"type": "image",
+			"source": "user",
+			"value": "##image1",
+			"imageProp": {
+				"rect": "0,0,1,1"
+			}
+		}
+	]
+}

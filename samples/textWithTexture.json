@@ -1,0 +1,52 @@
+{
+        "elements": [
+            {
+            "name": "eleText3", 
+            "source": "designer", 
+            "textProp": {
+                "color": "#ffffff", 
+                "fontSize": 64, 
+                "fontType": "SourceHanSansCN-Medium.otf"
+            }, 
+            "vision": {
+                "mask": "##image1"
+            },
+            "type": "text", 
+            "value": "This is text"
+          } 
+        ],
+        "actions": [
+            {
+	           "name" : "act0",
+	           "projectionType" : "normal",
+	           "element" : "eleText3",
+	           "startTime" : 0,
+	           "endTime" : 2000,
+	           "startPos" : "0.5,0.5,1,1",
+	           "endPos" : "0.5,0.5,1,1",
+	           "resizeMode" : "pointalign"
+	   }
+        ],
+        "blueprintDesc": {
+            "author": "",
+            "name": "",
+            "version": ""
+        },
+        
+        "hypnosConfig": {
+            "filterPath": "",
+            "transitionPath": ""
+        },
+        "outputDesc": {
+            "bgColor": "RGBA(0,0,0,255)",
+            "duration": 2000,
+            "fps": 25,
+            "height": 960,
+            "outputLocation": "",
+            "width": 544
+        },
+        "resource":{
+           "##image1":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/1.jpg"
+        }
+    }
+    

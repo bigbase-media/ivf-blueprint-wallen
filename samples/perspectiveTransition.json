@@ -1,0 +1,108 @@
+{
+	"blueprintDesc": {
+		"author": "wallen",
+		"name": "sample"
+	},
+
+	"outputDesc": {
+		"width": 1280,
+		"height": 720,
+		"outputLocation": "",
+		"fps": 25.0,
+		"duration" : 3000, 
+		"bgColor": "RGBA(255,255,255,255)"
+	},
+	
+	"resource" : {
+		"##image1":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/1.jpg",
+    "##image2":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/61festival/2.jpg"
+	}, 
+	
+	"elements" : [
+		{
+      "name": "ele1fengge17558",
+      "source": "designer",
+      "type": "image",
+      "value": "##image2"
+    },
+    {
+      "name": "ele1fengge175581",
+      "source": "designer",
+      "type": "image",
+      "imageProp" : {
+        "rect": "0,0,1,0.5"
+      },
+      "value": "##image2"
+    },
+    {
+      "name": "ele1fengge175582",
+      "source": "designer",
+      "type": "image",
+      "imageProp" : {
+        "rect": "0,0.5,1,1"
+      },
+      "value": "##image2"
+    },
+    {
+      "name": "ele1fengge17559",
+      "source": "designer",
+      "type": "image",
+      "value": "##image1"
+    }
+	],
+	
+	"actions" : [
+	   {
+      "element": "ele1fengge17558",
+      "endPos": "0.2,0.2,0.8,0.8",
+      "endTime": 1500,
+      "name": "act1fenping",
+      "projectionType": "normal",
+      "resizeMode": "stretch",
+      "subactions":["resize"],
+      "resizeConfig":{"resolution":"1280,720"},
+      "startPos": "0.2,0.2,0.8,0.8",
+      "startTime": 0
+    },
+    {
+      "element": "ele1fengge17559",
+      "endPos": "0.2,0.2,0.8,0.8",
+      "endTime": 3000,
+      "name": "act1fenping",
+      "projectionType": "normal",
+      "resizeMode": "stretch",
+      "subactions":["resize"],
+      "resizeConfig":{"resolution":"1280,720"},
+      "startPos": "0.2,0.2,0.8,0.8",
+      "startTime": 1500
+    },
+    {
+      "element": "ele1fengge175581",
+      "endPos": "0.2,0.2,0.8,0.2,1.0,0,0,0",
+      "endTime": 3000,
+      "name": "act1fenping",
+      "projectionType": "perspective",
+      "resizeMode": "stretch",
+      "subactions":["resize"],
+      "resizeConfig":{"resolution":"1280,720"},
+      "startPos": "0.2,0.2,0.8,0.2,0.8,0.5,0.2,0.5",
+      "startAlpha": 1.0,
+      "endAlpha": 0.0,
+      "startTime": 1500
+    },
+    {
+      "element": "ele1fengge175582",
+      "endPos": "0,1,1,1,0.8,0.8,0.2,0.8",
+      "endTime": 3000,
+      "name": "act1fenping",
+      "projectionType": "perspective",
+      "resizeMode": "stretch",
+      "subactions":["resize"],
+      "resizeConfig":{"resolution":"1280,720"},
+      "startPos": "0.2,0.5,0.8,0.5,0.8,0.8,0.2,0.8",
+      "startAlpha": 1.0,
+      "endAlpha": 0.0,
+      "startTime": 1500
+    }
+	]
+}
