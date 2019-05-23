@@ -1,3 +1,16 @@
+# 视频工厂使用说明
+
+
+## 接口地址
+http://hypnos.innotechx.com/task
+
+## http请求类型
+post请求命令
+[postman使用图例](https://github.com/bigbase-media/ivf-blueprint-wallen/tree/master/specification/postman.png)
+
+命令格式可参考,[视频工厂2.0 设计蓝图格式定义](https://github.com/bigbase-media/ivf-blueprint-wallen/tree/master/specification/hypnos-v2-xmind.png)
+
+
 # 1.	关于轨迹的使用方法案例
 有些时候素材的运动的路线和速度比较灵活多变，只通过起始和结束两个点，无法准确的表现，或者即使能通过多组action来表现，也因为action过多而过于复杂，不方便维护；在这种情况下，对action引入了轨迹的track属性。track的值是一个资源url，该资源主要是用来指示每一个相对时间点素材的位置情况，## 1.1 "projectionType": "normal"
 ### 形式如下：
