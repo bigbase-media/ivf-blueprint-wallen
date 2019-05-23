@@ -12,7 +12,7 @@
 冒号左边是时间点，0即第0秒；冒号右边是对应这个时间点的位置信息，0,0,1,1表示素材占据整个画面；在"projectionType": "normal"时，位置信息有用逗号隔开的4个值，分别为左上水平坐标，左上竖直坐标，右下水平坐标，右下竖直坐标，并且是相对于整个屏幕的相对值### 第5行500:0.1,0.1,0.9,0.9 
 冒号左边的500，表示这个位置的时间点在第0.5秒；冒号右边是对应这个时间点的位置信息，0.1,0.1,0.9,0.9 表示素材在画面的位置是占据画面的左上10%,10%到右下90%,90%这个部分## 1.2"projectionType": "perspective"
 每个时间点后面的位置信息是四边形的顺时针顺序的4个点相对坐标位置。### 案例：
-[设计图](https://github.com/bigbase-media/ivf-blueprint-wallen/tree/master/samples/抖动.json) 
+[设计图](https://github.com/bigbase-media/ivf-blueprint-wallen/tree/master/samples/track.json) 
 # 2.	关于文字渐变显示方法案例
 可以通过subaction中的四边形动态裁切ploygon来实现文字逐步显示效果### 案例：[设计图 ](https://github.com/bigbase-media/ivf-blueprint-wallen/tree/master/samples/textDisplay.json)
 # 3.	手工实现转场方法案例
