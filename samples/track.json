@@ -1,0 +1,50 @@
+{
+    "elements": [
+            {
+                "name": "bgm",
+                "source": "designer",
+                "type": "audio",
+                "value": "##bgmusic"
+            },
+            {
+                "name": "ele5",
+                "source": "designer",
+                "type": "video",
+                "value": "##name1"
+            }
+        ],
+        "actions": [
+            {
+                "name": "act5",
+                "element": "ele5",
+                "startTime": 0,
+                "endTime": 3000,
+                "projectionType": "normal",
+                "track":"https://github.com/bigbase-media/ivf-blueprint-wallen/tree/master/samples/track.txt"
+            }
+        ],
+        "blueprintDesc": {
+            "author": "",
+            "name": "",
+            "version": ""
+        },
+        
+        "hypnosConfig": {
+            "filterPath": "",
+            "transitionPath": ""
+        },
+        "outputDesc": {
+            "bgColor": "RGBA(0,0,0,255)",
+            "duration": 3000,
+            "fps": 25,
+            "height": 960,
+            "outputLocation": "",
+            "width": 544
+        },
+        "resource":{
+            "##bgmusic":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/duopai/jiezoubg.mp3",
+            "##name11":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/duopai/ds.mp4",
+            "##name1":"https://videofactory.oss-cn-shanghai.aliyuncs.com/ios/res/duopaitest/zipaixgn.mp4"
+        }
+    }
+    
